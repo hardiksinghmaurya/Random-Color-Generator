@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    transition: .1s;
+}
+
+h1{
+    text-align: center;
+    font-size:4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.container{
+    margin-top: 20rem;
+    width: 100%;
+    min-height: 100vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   font-size: 2rem;
+   border: none;
+   border-radius: .75rem;
+   
+}
+
+.click{
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: .75rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.copy{
+    background-color: transparent;
+    border:none;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.copybtn{
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .5rem .8rem;
+}
